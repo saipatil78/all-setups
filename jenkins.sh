@@ -15,7 +15,7 @@ systemctl start jenkins.service
 systemctl enable jenkins.service
 systemctl status jenkins.service
 
-#step-5: commands for disk issue with amazon linus 6.1 image(jenkins executeiors inactive issue)
+#step-5: commands for disk issue with amazon linus 6.1 image(jenkins executor inactive issue)
 sudo mkdir -p /var/tmp_disk
 sudo chmod 1777 /var/tmp_disk
 sudo mount --bind /var/tmp_disk /tmp
